@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Name: "
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:fontFamily="serif"/>
+            <EditText
+                android:id="@+id/add_edtName"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="Name product"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Price: "
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <EditText
+                android:id="@+id/add_edtPhone"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="price"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="wrap_content"
+                android:text="Image: "
+                android:textStyle="bold"
+                android:fontFamily="serif"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"/>
+            <TextView
+                android:id="@+id/add_tvTouchImg"
+                android:layout_width="0dp"
+                android:layout_weight="8"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text=" Touch here to add image"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center_vertical"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="3">
+            <Button
+                android:id="@+id/add_btnAdd"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="Add"
+                android:fontFamily="serif"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+            <Button
+                android:id="@+id/add_btnUpdate"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="Update"
+                android:fontFamily="serif"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/colorPrimary" />
+            <Button
+                android:id="@+id/add_btnDelete"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="Delete"
+                android:fontFamily="serif"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/colorPrimaryDark"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

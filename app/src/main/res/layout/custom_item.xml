@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/cus_imgProduct"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="60dp"
+        android:src="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="6"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+        <TextView
+            android:id="@+id/cus_tvNameProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Name"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:gravity="center"/>
+        <TextView
+            android:id="@+id/cus_tvPriceProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="price"
+            android:fontFamily="serif"
+            android:textSize="14sp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/add"
+        android:text="Add"
+        android:textSize="12sp"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:fontFamily="serif"
+        android:layout_gravity="center_vertical"/>
+
+</LinearLayout>

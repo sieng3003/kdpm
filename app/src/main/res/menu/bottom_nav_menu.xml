@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home_greendark"
+        android:title="Home"/>
+
+<!--    <item-->
+<!--        android:id="@+id/nav_add_product"-->
+<!--        android:icon="@drawable/ic_add_list_greendark"-->
+<!--        android:title="Add product" />-->
+
+    <item
+        android:id="@+id/nav_product"
+        android:icon="@drawable/ic_product_greendark"
+        android:title="Product" />
+
+    <item
+        android:id="@+id/nav_cart"
+        android:icon="@drawable/ic_cart_greendark"
+        android:title="Cart" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@drawable/ic_history_greendark"
+        android:title="History" />
+
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account_greendark"
+        android:title="Account" />
+
+
+</menu>
